@@ -12,8 +12,10 @@ class DatabaseSeeder extends Seeder
             PermissionRoleTableSeeder::class,
             UsersTableSeeder::class,
             RoleUserTableSeeder::class,
-            EffetIntermediaire::class,
-            EffetImmediat::class,
+            EffetIntermediaireTableSeeder::class,
+            EffetImmediatTableSeeder::class,
+            ExtrantTableSeeder::class,
+            IndicateurTableSeeder::class,
         ]);
     }
 }

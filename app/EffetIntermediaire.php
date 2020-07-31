@@ -30,4 +30,15 @@ class EffetIntermediaire extends Model
     {
         return $date->format('Y-m-d H:i:s');
     }
+
+    /**
+     * undocumented function
+     *
+     * @return void
+     */
+    public function effetIntermediaireEffetImmediats()
+    {
+        return $this->hasMany(EffetImmediat::class);
+    }
+    
 }
